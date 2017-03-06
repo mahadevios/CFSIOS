@@ -30,6 +30,7 @@
 		8438BE021D0E9A030003F3C4 /* MainMOMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8438BE011D0E9A030003F3C4 /* MainMOMViewController.m */; };
 		844177301CA56D7900C850B0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8441772F1CA56D7900C850B0 /* libsqlite3.tbd */; };
 		844177331CA5749E00C850B0 /* Communicator_DB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 844177321CA5749E00C850B0 /* Communicator_DB.sqlite */; };
+		8441A1921E0C0641002F0922 /* default.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8441A1911E0C0641002F0922 /* default.mp3 */; };
 		8446231A1CB398B6007CC831 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844623191CB398B6007CC831 /* SWRevealViewController.m */; };
 		8446231D1CB3A0BD007CC831 /* SWMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8446231C1CB3A0BD007CC831 /* SWMenuViewController.m */; };
 		844623201CB3A532007CC831 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8446231E1CB3A532007CC831 /* Main.storyboard */; };
@@ -162,6 +163,7 @@
 		8438BE011D0E9A030003F3C4 /* MainMOMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMOMViewController.m; sourceTree = "<group>"; };
 		8441772F1CA56D7900C850B0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		844177321CA5749E00C850B0 /* Communicator_DB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Communicator_DB.sqlite; sourceTree = "<group>"; };
+		8441A1911E0C0641002F0922 /* default.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = default.mp3; sourceTree = "<group>"; };
 		844623181CB398B6007CC831 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		844623191CB398B6007CC831 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		8446231B1CB3A0BD007CC831 /* SWMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWMenuViewController.h; sourceTree = "<group>"; };
@@ -358,6 +360,7 @@
 				8472EA0E1CA65D4500285776 /* ViewControllers */,
 				841F6D1C1C9D4BEC0082F7BE /* AppDelegate.h */,
 				841F6D1D1C9D4BEC0082F7BE /* AppDelegate.m */,
+				8441A1911E0C0641002F0922 /* default.mp3 */,
 				8446231E1CB3A532007CC831 /* Main.storyboard */,
 				84AF76FB1D0065CE00F381B4 /* Assets.xcassets */,
 				841F6D271C9D4BEC0082F7BE /* LaunchScreen.storyboard */,
@@ -718,12 +721,15 @@
 					841F6D151C9D4BEC0082F7BE = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = Y56BAH343T;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 1;
 							};
 							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
 								enabled = 1;
 							};
 						};
@@ -769,6 +775,7 @@
 				842784E61CBB7E6C0072893C /* Settings.plist in Resources */,
 				84AF76FC1D0065CE00F381B4 /* Assets.xcassets in Resources */,
 				846ACF771D0C13B60064803E /* AppIcon80x80.png in Resources */,
+				8441A1921E0C0641002F0922 /* default.mp3 in Resources */,
 				847D86BB1DF0004800527040 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1157,7 +1164,8 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreflexSolutions.Communicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "d43464bb-02fe-49c6-b621-760fbaa7ff1f";
+				PROVISIONING_PROFILE_SPECIFIER = CoreflexCommunicator;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1196,7 +1204,8 @@
 				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.coreflexSolutions.Communicator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "2da72274-4861-41df-9a9b-b365ce06b67e";
+				PROVISIONING_PROFILE_SPECIFIER = CoreflexCommunicator;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

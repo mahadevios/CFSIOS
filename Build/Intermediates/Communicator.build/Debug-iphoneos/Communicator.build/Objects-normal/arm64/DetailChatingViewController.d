@@ -10,5 +10,5 @@ dependencies: \
   /Users/admin/Desktop/POD/Communicator/Communicator/Models/CounterGraph.h \
   /Users/admin/Desktop/POD/Communicator/Communicator/Models/FTPNetwork/NetworkManager.h \
   /Users/admin/Desktop/POD/Communicator/Communicator/Libraries/HTMLParser/NSString+HTML.h \
-  /Users/admin/Desktop/POD/Communicator/Communicator/Libraries/HTMLParser/GTMNSString+HTML.h \
-  /Users/admin/Desktop/POD/Communicator/Communicator/Controllers/PopUpCustomView.h
+  /Users/admin/Desktop/POD/Communicator/Communicator/Controllers/PopUpCustomView.h \
+  /Users/admin/Desktop/POD/Communicator/Communicator/Categories/UIColor+CommunicatorColor.h

@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "500884460.976186"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "817"
-            endingLineNumber = "817"
+            startingLineNumber = "818"
+            endingLineNumber = "818"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "500884460.976186"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "837"
-            endingLineNumber = "837"
+            startingLineNumber = "838"
+            endingLineNumber = "838"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -666,11 +666,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "500884460.976186"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "502"
-            endingLineNumber = "502"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -906,11 +906,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "501058399.290714"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "646"
-            endingLineNumber = "646"
+            startingLineNumber = "647"
+            endingLineNumber = "647"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -1289,22 +1289,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Communicator/Controllers/DetailChatingViewController.m"
-            timestampString = "504108946.810927"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1054"
-            endingLineNumber = "1054"
-            landmarkName = "-sendFeedbackButtonClicked:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Communicator/Controllers/FeedcomQuerycomViewController.m"
             timestampString = "504018405.750281"
             startingColumnNumber = "9223372036854775807"
@@ -1417,22 +1401,6 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Communicator/Controllers/DetailChatingViewController.m"
-            timestampString = "504021057.730624"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "227"
-            endingLineNumber = "227"
-            landmarkName = "-reloadData"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "Communicator/Database/Database.m"
             timestampString = "504086689.364202"
             startingColumnNumber = "9223372036854775807"
@@ -1456,22 +1424,6 @@
             startingLineNumber = "864"
             endingLineNumber = "864"
             landmarkName = "-uploadFileOfReportOrDocument:flag:"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Communicator/Controllers/DetailChatingViewController.m"
-            timestampString = "504108946.810927"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "520"
-            endingLineNumber = "520"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

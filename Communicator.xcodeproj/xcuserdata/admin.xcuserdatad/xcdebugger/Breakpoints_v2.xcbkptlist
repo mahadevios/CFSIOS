@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "500884460.976186"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "549"
-            endingLineNumber = "549"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Communicator/API Manager/DownloadMetaDataJob.m"
-            timestampString = "500884460.976186"
+            timestampString = "519310406.344463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "506"
-            endingLineNumber = "506"
+            startingLineNumber = "507"
+            endingLineNumber = "507"
             landmarkName = "-connectionDidFinishLoading:"
             landmarkType = "7">
          </BreakpointContent>
